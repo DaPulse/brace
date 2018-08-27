@@ -1,7 +1,7 @@
 {
-  "name": "brace",
+  "name": "brace-aml",
   "version": "0.11.1",
-  "description": "browserify compatible version of the ace editor.",
+  "description": "Browserified version of ace-builds, with the AML language",
   "main": "index.js",
   "typings": "index.d.ts",
   "scripts": {
@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thlorenz/brace.git"
+    "url": "git://github.com/DaPulse/brace-aml.git"
   },
-  "homepage": "https://github.com/thlorenz/brace",
+  "homepage": "https://github.com/DaPulse/brace-aml",
   "dependencies": {},
   "devDependencies": {
     "browserify": "~4.2.0",
@@ -31,9 +31,8 @@
     "browserify"
   ],
   "author": {
-    "name": "Thorsten Lorenz",
-    "email": "thlorenz@gmx.de",
-    "url": "http://thlorenz.com"
+    "name": "Daniel Mittelman (originally by Thorsten Lorenz)",
+    "email": "daniel@monday.com"
   },
   "license": "MIT",
   "engine": {
